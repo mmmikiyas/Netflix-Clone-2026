@@ -1,0 +1,50 @@
+.header_outer_container 
+{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    /* background-color: transparent; */
+    /* color: white; */
+    height: 10vh;
+    transition: all 0.5s;
+    /* transition: all 0.5s ease-in; */
+    transition-timing-function: ease-in;
+    z-index: 1;
+
+}
+.nav_black
+{
+    background-color: rgb(20, 20, 20);
+}
+.header_container{
+ width: 90%;
+ display: flex;
+ align-items: center;    
+  justify-content: space-between;
+
+ padding: 0 30 px;
+}
+/* make UL horizontal */
+.header_container ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;    
+    padding: 30;
+    margin: 30;
+}
+.header_left ul{
+    /* width: 140%; */
+    display: flex;
+
+    align-items: center;
+     justify-content: space-between;
+line-height: none;
+}
+
+.header_container li {
+    cursor: pointer;
+    padding: 10;
+}
